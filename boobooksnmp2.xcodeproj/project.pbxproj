@@ -118,9 +118,9 @@
 		EB9533422227514600AE34C1 /* MIBTreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB95330F2227514500AE34C1 /* MIBTreeViewController.m */; };
 		EB9533452227514600AE34C1 /* QueryTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB9533142227514500AE34C1 /* QueryTableViewController.xib */; };
 		EB953348222756A500AE34C1 /* libnetsnmp.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EB953347222756A500AE34C1 /* libnetsnmp.tbd */; };
-		EB9534332228676400AE34C1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB953430222866D600AE34C1 /* MainMenu.xib */; };
 		EBD1D41F222B72DB00C0BE7D /* boobooksnmp2Help.help in Resources */ = {isa = PBXBuildFile; fileRef = EBD1D41E222B72DB00C0BE7D /* boobooksnmp2Help.help */; };
 		EBD1D422222C67D900C0BE7D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EBD1D421222C67D900C0BE7D /* README.md */; };
+		F04A72052416BBC7008892CF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F04A72032416BBC7008892CF /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -285,10 +285,10 @@
 		EB9533152227514600AE34C1 /* MIBTreeTreeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIBTreeTreeController.h; sourceTree = "<group>"; };
 		EB953347222756A500AE34C1 /* libnetsnmp.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libnetsnmp.tbd; path = usr/lib/libnetsnmp.tbd; sourceTree = SDKROOT; };
 		EB9534222227988500AE34C1 /* boobooksnmp2.profdata */ = {isa = PBXFileReference; lastKnownFileType = file; path = boobooksnmp2.profdata; sourceTree = "<group>"; };
-		EB953431222866D600AE34C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = MainMenu.xib; sourceTree = "<group>"; };
 		EBD1D41E222B72DB00C0BE7D /* boobooksnmp2Help.help */ = {isa = PBXFileReference; lastKnownFileType = folder; path = boobooksnmp2Help.help; sourceTree = "<group>"; };
 		EBD1D420222B81F400C0BE7D /* ToDO.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = ToDO.rtf; sourceTree = "<group>"; };
 		EBD1D421222C67D900C0BE7D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F04A72042416BBC7008892CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -337,12 +337,12 @@
 		EB9531FE22274E5D00AE34C1 /* boobooksnmp2 */ = {
 			isa = PBXGroup;
 			children = (
+				F04A72032416BBC7008892CF /* MainMenu.xib */,
 				EB9532F92227514400AE34C1 /* AgentBoxViewController.h */,
 				EB9532F72227514400AE34C1 /* AgentBoxViewController.m */,
 				EB9532EC2227514300AE34C1 /* AppDelegate.h */,
 				EB9532EB2227514300AE34C1 /* AppDelegate.m */,
 				EB9532F42227514400AE34C1 /* Assets.xcassets */,
-				EB95342F222866D600AE34C1 /* Base.lproj */,
 				EB9532E82227514300AE34C1 /* Bbs2NetSnmp.h */,
 				EB9532E42227514300AE34C1 /* Bbs2NetSnmp.m */,
 				EB95330E2227514500AE34C1 /* Bbs2SnmpOperation.h */,
@@ -546,15 +546,6 @@
 			path = OptimizationProfiles;
 			sourceTree = "<group>";
 		};
-		EB95342F222866D600AE34C1 /* Base.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				EB953430222866D600AE34C1 /* MainMenu.xib */,
-			);
-			name = Base.lproj;
-			path = "../../2-10-2019-boobooksnmp2/boobooksnmp2/Base.lproj";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -688,7 +679,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBD1D41F222B72DB00C0BE7D /* boobooksnmp2Help.help in Resources */,
-				EB9534332228676400AE34C1 /* MainMenu.xib in Resources */,
+				F04A72052416BBC7008892CF /* MainMenu.xib in Resources */,
 				EB9533192227514600AE34C1 /* FileViewController.xib in Resources */,
 				EB9533262227514600AE34C1 /* LogView.xib in Resources */,
 				EB9533202227514600AE34C1 /* PreferencesViewController.xib in Resources */,
@@ -803,10 +794,10 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		EB953430222866D600AE34C1 /* MainMenu.xib */ = {
+		F04A72032416BBC7008892CF /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EB953431222866D600AE34C1 /* Base */,
+				F04A72042416BBC7008892CF /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
